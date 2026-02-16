@@ -1,5 +1,23 @@
 # @assistant-ui/store
 
+## 0.2.0
+
+### Minor Changes
+
+- b65428e: refactor: only allow functions in scope methods
+
+### Patch Changes
+
+- b65428e: refactor: replace peerScopes with transformScopes API
+- b65428e: refactor: rename ClientRegistry to ScopeRegistry
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+  - @assistant-ui/tap@0.5.0
+
 ## 0.1.6
 
 ### Patch Changes

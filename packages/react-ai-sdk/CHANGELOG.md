@@ -1,5 +1,25 @@
 # @assistant-ui/react-ai-sdk
 
+## 1.3.8
+
+### Patch Changes
+
+- aeec3b9: fix: handle AI SDK v6 approval tool states (approval-requested, approval-responded, output-denied)
+- 7836760: fix(assistant-cloud): expand joined messages for AI SDK v6 history export and telemetry reporting
+- 61b54e9: Add message timing metadata: `AssistantMessageTiming` type, automatic timing tracking in `AssistantMessageAccumulator`, `MessageTiming` type, `useMessageTiming()` hook, and client-side streaming timing for AI SDK runtime.
+- a247fc9: feat(assistant-cloud): allow save complete multi-step message
+- Updated dependencies [d08a488]
+- Updated dependencies [5e304ea]
+- Updated dependencies [7836760]
+- Updated dependencies [b65428e]
+- Updated dependencies [af5b085]
+- Updated dependencies [61b54e9]
+- Updated dependencies [a247fc9]
+- Updated dependencies [b48912c]
+- Updated dependencies [58a8472]
+  - assistant-cloud@0.1.18
+  - @assistant-ui/react@0.12.11
+
 ## 1.3.7
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@assistant-ui/store",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Tap-based state management for @assistant-ui",
   "keywords": [
     "state-management",
@@ -33,7 +33,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@assistant-ui/tap": "^0.4.5",
+    "@assistant-ui/tap": "^0.5.0",
     "use-effect-event": "^2.0.3"
   },
   "peerDependencies": {

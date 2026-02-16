@@ -1,5 +1,19 @@
 # @assistant-ui/tap
 
+## 0.5.0
+
+### Minor Changes
+
+- b65428e: feat: tap scheduler now uses macro tasks
+- b65428e: feat: createResourceRoot and tapResourceRoot APIs
+
+### Patch Changes
+
+- b65428e: feat: tapReducer API
+- b65428e: feat: Offscreen API support
+- b65428e: feat: tapReducerWithDerivedState API
+- b65428e: feat: tapMemo concurrent safe mode
+
 ## 0.4.6
 
 ### Patch Changes

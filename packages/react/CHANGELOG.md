@@ -1,5 +1,40 @@
 # @assistant-ui/react
 
+## 0.12.11
+
+### Patch Changes
+
+- 5e304ea: feat: client-side run telemetry reporting with `beforeReport` hook
+- 7836760: fix(assistant-cloud): expand joined messages for AI SDK v6 history export and telemetry reporting
+- b65428e: refactor: thread().composer() now needs to be invoked
+- af5b085: feat(assistant-cloud): support MCP tool observability
+- 61b54e9: Add message timing metadata: `AssistantMessageTiming` type, automatic timing tracking in `AssistantMessageAccumulator`, `MessageTiming` type, `useMessageTiming()` hook, and client-side streaming timing for AI SDK runtime.
+- a247fc9: feat(assistant-cloud): allow save complete multi-step message
+- b48912c: fix(react): smooth streaming behaviour to include first chunk
+- 58a8472: feat: Add standalone AI SDK hooks for cloud persistence without assistant-ui
+
+  New `@assistant-ui/cloud-ai-sdk` package with `useCloudChat` and `useThreads` hooks. Wraps AI SDK's `useChat` with automatic message persistence, thread management, and auto-title generation.
+
+- Updated dependencies [b65428e]
+- Updated dependencies [d08a488]
+- Updated dependencies [b65428e]
+- Updated dependencies [5e304ea]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+- Updated dependencies [af5b085]
+- Updated dependencies [61b54e9]
+- Updated dependencies [a247fc9]
+- Updated dependencies [b65428e]
+- Updated dependencies [58a8472]
+- Updated dependencies [b65428e]
+- Updated dependencies [b65428e]
+  - @assistant-ui/tap@0.5.0
+  - assistant-cloud@0.1.18
+  - @assistant-ui/store@0.2.0
+  - assistant-stream@0.3.3
+
 ## 0.12.10
 
 ### Patch Changes
